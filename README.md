@@ -1,4 +1,3 @@
-# ros_ethercat_driver
 <img src = /assets/EtherCAT-16-9.jpg width = 30% height = 30% align = center />
 
 A Ros EtherCAT hardware interface for ros_control based on **SOEM**
@@ -34,10 +33,10 @@ A Ros EtherCAT hardware interface for ros_control based on **SOEM**
   source .bashrc
   roslaunch rqt_ethercat_test_plugin ethercat_test.launch
   ```
-- There is a GUI like this
-  ![ethercat_test_gui](/assets/ethercat_test_gui.png)
+- There is a GUI like this  
+  ![rqt_ethercat_test](/assets/rqt_ethercat_test.gif)
   - Fisrt, input the Ethernet Port, for example 'eno1'.
   - Then, click button 'connect', if success, there will be a list of device in the Table.
-
+  - if connect to a device, you can choose the device use the check box, the you can set operation mode and control the device
   ## TODO
   Auto Switch between Golden Twitter and ANYdrive.
